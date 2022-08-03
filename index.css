@@ -1,0 +1,106 @@
+body {
+	font-family: Verdana;
+	font-size: 1.6rem;
+	text-align: center;
+	line-height: 1.5;
+	color: rgb(170, 170, 160);
+}
+
+body::before {
+	content: '';
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+background-image: URL(https://s3.amazonaws.com/primagames-prod-assets/files/john-wick-the-continental-series-starz-details.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#main {
+	background: rgba(150,170, 170, 0.5);
+	padding: 0;
+	margin: 30px 4px;
+}
+h1 {
+	margin-bottom: 0;
+	font-size: 2.5rem;
+	text-shadow: 1px 0px black;
+}
+
+#img-div {
+	background: rgb(150,170, 170);
+	margin: 0;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+#image { 
+	max-width: 600px;
+    width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+#img-caption {
+	margin: 10px 0 3px 0;
+	color: black;
+	font-size: 12px;
+}
+
+
+
+#headline {
+	text-align: center;
+	margin: 10px 0;
+	color: rgb(180, 180, 170);
+	text-shadow: 1px 0px black;
+	font-size: 25px;
+}
+
+ul {
+	max-width: 680px;
+	margin: 0 auto 5px auto;
+	text-shadow: 1px 0px black;
+	text-align: left;
+	font-size: 20px;
+}
+span {
+	font-family: Serif;
+	margin: 8px auto;
+	color: black;
+	font-size: 17px;
+}
+blockquote {
+	font-style: italic;
+	max-width: 540px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	text-shadow: 1px 0px black;
+	font-weight: bold;
+}
+
+cite {
+	font-style: italic;
+	text-align: left;
+	font-weight: bold;
+}
+
+h3, h4 {
+	text-shadow: 1px 0px black;
+	font-size: 20px;
+}
+
+#tribute-link {
+	text-decoration: none;
+	color: rgb(180, 180, 170);
+	text-shadow: 1px 0px black;
+}
+
+#tribute-link:hover {
+	color: white;
+}
